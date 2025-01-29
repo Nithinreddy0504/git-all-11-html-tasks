@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .forms{
+            width: 25%;
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid;
+          margin-left: 35%;
+          background-color: white;
+
+        }
+       
+        
+
+    </style>
+</head>
+<body bgcolor="lightblue">
+    <div class="forms">
+        <form action="login.html">
+        <center>
+            <h1>SignUp here !</h1>
+            <label for="h1"></label>
+            <input type="text" id="h1" name="username" placeholder="Username" required><br><br>
+
+            <label for="h2"></label>
+            <input type="email" id="h2" name=" email" placeholder="Email id" required><br><br>
+
+            <label for="h3"></label>
+            <input type="number" id="h3" name="phone number" placeholder="Phone Number" required  pattern="[0-9]"><br><br>
+
+            <label for="h4"></label>
+            <input type="password" id="h4" placeholder="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"><br><br>
+
+            <label for="h5"></label>
+            <input type="password" id="h5" placeholder="Confirm Password" required  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"><br><br>
+
+            
+
+
+            
+            <button type="submit" style="background-color: green;">SignUp</button><br><br>
+            <center>Already have an account! </center>
+            <a href="login.html">LoGin</a>
+
+        </form>
+
+
+        </center>
+
+    </div>
+    
+</body>
+</html>
